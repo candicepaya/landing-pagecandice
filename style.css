@@ -1,0 +1,218 @@
+body{
+    background-color: azure;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    margin: 0px
+
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 100px;
+    color: white;
+    font-weight: 700px;
+
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    color: #03357c;
+    text-align: center
+    
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    color: #03357c;
+    font-size: 40px;
+}
+
+.banner{
+    padding: 150px 0;
+    margin: 0;
+    background-image: url(images/2017+Australian+Open+Day+3+9MZoVaJiU0Nx.jpeg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.banner-p{
+    color: white;
+    font-size: 30px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+
+}
+
+.btn-blue{
+    background-color:#b4e5ff;
+    color: black;
+    text-decoration: none;
+    padding: 70px,70px;
+    font-weight: 600px;
+    border-radius: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font size: 20px;
+
+}
+
+.btn-blue:hover{
+    background-color: #FAFDD6;
+    color: black;
+}
+
+.btn-dark-blue:hover{
+    background-color: #b4e5ff;
+    color: black;
+}
+
+.container{
+    
+    margin: 10px auto;
+    width: 1200px;
+}
+
+.card-white{
+    background-color: #E9F8F9;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    object-fit:contain;
+    box-shadow: 0px 10px 10px #BAD7E9;
+    padding-bottom: 30px;
+    position: relative;
+
+}
+
+.card-white-img{
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 16px;
+    
+}
+
+.btn-dark-blue{
+    text-decoration: none;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
+    font-weight: 500px;
+    border-radius: 20px;
+    background-color: #01214d;
+    color: white;
+    
+    
+    
+}
+
+p{
+    color: #03357c;
+    font-size: 20px;
+    font-family: lato, sans-serif; 
+}
+
+.sport{
+    margin-bottom: 40px;
+
+}
+.description{
+    margin-bottom: 50px;
+}
+
+#banner-p{
+    margin-bottom: 70px;
+    color: white;
+}
+
+.card-white .btn-dark-blue{
+    position: absolute;
+    bottom:   10px;
+    right: 110px;
+
+}
+
+.card-white-2{
+    text-align: justify; 
+    background-color: #E9F8F9;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    object-fit:contain;
+    box-shadow: 0px 10px 10px #BAD7E9;
+    padding-bottom: 30px;
+    position: relative;
+}
+
+.card-white-2 .btn-dark-blue {
+    position: absolute;
+    bottom:   10px;
+}
+
+.footer{
+    padding: 70px;
+    background-color: #BAD7E9;
+    color: #03357c;
+    margin-top: 50px;
+    text-align: center;
+    
+}
+
+.footer-p{
+    font-family: lato, sans-serif;
+    text align; center;
+    font-style: italic;
+    color: #03357c
+}
+
+.cards-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 13px;
+        
+}
+
+.card2-white-img{
+    height: 130px;
+    width: 100%;
+    object-fit: cover; 
+
+}
+
+.banner2{
+    background-image: url(images/bannière.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 150px 0;
+    margin: 0;
+    margin-top: 90px;
+}
+
+.container-2{
+    
+    margin: 10px auto;
+    width: 1200px;
+    
+}
+
+#sous-titre{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+
